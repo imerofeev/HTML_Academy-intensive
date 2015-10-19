@@ -39,16 +39,21 @@
         <!-- MAIN -->
 
         <div class="container page">
+          <!-- неплохо бы класс для загловка, вообще для всех заголовок лучше делать классы, чтобы их было легко менять -->
           <h1>Средства для ухода</h1>
           <ul class="breadcrumbs">
+            <!--ссылка внутри-->
             <li>Главная</li>
+            <!--ссылка внутри-->
             <li>Магазин</li>
+            <!-- а тут правльно ссылка не нужна --> 
             <li class="current">Средства для ухода</li>
           </ul>
           <div class="container clearfix">
             <aside class="catalog-filter">
               <form action="URL">
                 <p class="catalog-title">Производители:</p>
+                  <!-- вот без этой обертки для label + input можно обойтись -->
                   <div class="row">
                     <input type="checkbox" name="prod" id="baxter" checked>
                     <label for="baxter">Baxter of California</label>
@@ -92,10 +97,13 @@
 
             <div class="catalog">
               <article class="catalog-item">
+                <!-- тут не вся карточка - ссылка, смотри в ТЗ написано должно быть -->
                 <a href="item.html">
+                  <!-- для картинок обяательно ширина и выоста без пикселей -->
                   <img src="#" alt="">
                   <div class="item-description">
                     <h3>Набор для путешествий<span>«Baxter of California»</span></h3>
+                    <!--такой маленький элемент лучше не float а inline-block, поэтому clearfix тут не нужен -->
                     <div class="item-price clearfix">
                       <p class="price">2 900 РУБ.</p>
                       <span class="btn">Купить</span>
@@ -163,6 +171,7 @@
                   </div>
                 </a>
               </article>
+              <!-- пагинация по примеру хлебных крошек ul>li>a-->
               <div class="pagination">
                 <a href="#">1</a>
                 <a href="#" class="current">2</a>
