@@ -79,7 +79,10 @@ h2{
 
 /* MAIN INDEX */
 .promo-block{
-  width: 100%;
+  /* width: 100%; */
+  min-height: 570px;
+  background: #417DA2 url("../img/bg-main.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .promo-block:after{
@@ -91,11 +94,12 @@ h2{
 }
 
 .reasons-header{
-  height: 150px;
+  /* height: 150px; */
   width: 575px;
   background: #ffffff;
   margin: 0 auto;
   text-align: center;
+  padding: 20px 0 30px;
 }
 
 .reasons-title{
@@ -122,20 +126,26 @@ h2{
   width: 33%;
   padding-top: 50px;
   margin: 0;
+  width: 33.3333333%;
+  float: left;
+  padding: 50px 6% 0 6%;
+  text-align: center;
+  box-sizing: border-box;
   text-align: center;
 }
 
 .reasons-row-image .reason{
-  float: left;
-  width: 33%;
-  padding-top: 50px;
-  margin: 0;
-  text-align: center;
+  /* float: left; */
+  /* width: 33.3333333%; */
+  /* padding: 50px 6% 0 6%; */
+  /* margin: 0; */
+  /* text-align: center; */
+  /* box-sizing: border-box; */
 }
 
 .reason-picture{
   float: right;
-  width: 66,66666666%;
+  width: 66.66666666%;
   margin: 0;
   padding: 0;
 }
@@ -143,8 +153,8 @@ h2{
 .reasons-row-image-invert .reason-picture{
   float: left;
   width: 66,66666666%;
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px; */
+  /* padding: 0px; */
 }
 
 .reasons-row-image-invert .reason{
@@ -156,7 +166,7 @@ h2{
 }
 
 .reason-title{
-  width: 150px;
+  /* width: 150px; */
   margin: 0 auto;
 }
 
@@ -165,7 +175,7 @@ h2{
 }
 
 .reason p{
-  width: 280px;
+  /* width: 280px; */
   margin: 0 auto;
 }
 
@@ -177,15 +187,16 @@ h2{
 .reason-image{
   float:left;
   padding-bottom: 80px;
-  width: 33%;
+  padding-top: 80px;
+  /* width: 33%; */
 }
 
 .reasons-row-gray{
   background: #eeeeee;
   color:#000000;
-  display: inline-block;
-  width:100%;
-  margin-top: -5px;
+  /* display: inline-block; */
+  /* width:100%; */
+  /* margin-top: -5px; */
 }
 
 .reasons-row-gray .reason-title{
@@ -193,7 +204,7 @@ h2{
 }
 
 .reasons-row-gray .reason{
-  float:left;
+  /* float:left; */
   padding-bottom: 80px;
 }
 
@@ -227,17 +238,24 @@ h2{
 }
 
 .map{
-  background-image: url("../img/bg-map.jpg");
+  /* background-image: url("../img/bg-map.jpg"); */
   height: 590px;
-  width: 100%;
+  position: relative;
+  /* width: 100%; */
 }
 
 .form{
   width: 575px;
-  height: 400px;
+  /* height: 400px; */
+  padding: 0 0 40px 0;
   margin: 0 auto;
   background-color: #ffffff;
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
 }
 
 .date{
@@ -260,7 +278,7 @@ h2{
 }
 
 /* MAIN HOTELS */
-.clearfix{
+.clearfix:after{
   content: "";
   display: table;
   clear: both;
@@ -356,22 +374,37 @@ h2{
   text-align: center;
   background: rgba(255, 255, 255, 0.9);
   margin-top: 90px;
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  padding: 30px 0;
+  font-size: 0;
 }
 
 .hashtag{
   text-decoration: none;
-  width: 33%;
-  float: left;
+  width: 33.3333333%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  /* float: left; */
 }
 
 .social{
-  width: 34%;
-  float: left;
+  width: 33.333333%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  /* float: left; */
 }
 
 .copyright{
-  width: 33%;
-  float: left;
+  width: 33.333333%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  /* float: left; */
 }
