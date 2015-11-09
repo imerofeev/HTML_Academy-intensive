@@ -5,6 +5,7 @@
   <title>Седона - альтернатива Большому каньону</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 
     <header class="main-header">
       <nav class="main-navigation">
-        <figure class="logo" href="#"><img src="img/logo.png" width="" height="" alt=""></figure>
+        <figure class="logo"><a href="#"><img src="img/logo.png" width="" height="" alt=""></a></figure>
         <ul>
           <li><a href="#">Информация</a></li>
           <li class="offset"><a href="#">Фото и видео</a></li>
@@ -42,7 +43,7 @@
         <section class="reason">
           <h2 class="reason-title">Настоящий городок</h2>
           <div class="reason-number">— №1 —</div>
-          <p>Седона не аттракцион для туристов, там течет своя жизнь</p>
+          <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
         </section>
       </div>
       <div class="reasons-row">
@@ -56,7 +57,7 @@
         </section>
         <section class="reason reason-image reason-image-gifts">
           <h2 class="reason-title">Сувениры</h2>
-          <p>Не только китайского, но и местного производства!</p>
+          <p>Не только китайского,<br>но и местного производства!</p>
         </section>
       </div>
       <div class="reasons-row reasons-row-image-invert">
@@ -66,24 +67,24 @@
         <section class="reason">
           <h2 class="reason-title">Там есть мост дьявола</h2>
           <div class="reason-number">— №2 —</div>
-          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <p>Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
         </section>
       </div>
       <div class="reasons-row reasons-row-gray">
         <section class="reason">
-          <h2 class="reason-title">Жилье</h2>
+          <h2 class="reason-title">Небольшая площадь</h2>
           <div class="reason-number">— №3 —</div>
-          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <p>Все достопримеча-<br>тельности находятся очень близко</p>
         </section>
         <section class="reason">
-          <h2 class="reason-title">Еда</h2>
+          <h2 class="reason-title">Красивая дорога</h2>
           <div class="reason-number">— №4 —</div>
-          <p>Всегда заказывай фирменный бургер, вы не разочаруетесь!</p>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </section>
         <section class="reason">
-          <h2 class="reason-title">Сувениры</h2>
+          <h2 class="reason-title">Мало туристов</h2>
           <div class="reason-number">— №5 —</div>
-          <p>Не только китайского, но и местного производства!</p>
+          <p>Большинство едет в гранд каньон и толпится там</p>
         </section>
       </div>
     </article>
@@ -116,13 +117,13 @@
             <label class="adults">
               <span>Взрослые:</span>
               <div class="minus"></div>
-              <input type="number" name="adults">
+              <input type="text" name="adults">
               <div class="plus"></div>
             </label>
             <label class="children">
               <span>Дети:</span>
               <div class="minus"></div>
-              <input type="number" name="children">
+              <input type="text" name="children">
               <div class="plus"></div>
             </label>
           </div>
@@ -145,5 +146,6 @@
       </footer>
     </div>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
