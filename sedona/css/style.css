@@ -301,7 +301,7 @@ li .main-navigation-active:active
     line-height: 21px;
 
     margin: 0 15%;
-    padding: 0;
+    padding-bottom: 30px;
 }
 
 .reason-img-title
@@ -316,7 +316,7 @@ li .main-navigation-active:active
     float: left;
 
     padding-top: 55px;
-    padding-bottom: 45px;
+    padding-bottom: 65px;
 }
 
 .reason-image p
@@ -465,7 +465,8 @@ li .main-navigation-active:active
 .date input[name='arrival'],
 .date input[name='departure']
 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 14px;
 
     position: relative;
 
@@ -506,8 +507,6 @@ li .main-navigation-active:active
 {
     float: left;
 
-    width: 240px;
-
     text-align: left;
 }
 
@@ -520,14 +519,12 @@ li .main-navigation-active:active
 {
     float: right;
 
-    width: 220px;
-
     text-align: right;
 }
 
 .children label
 {
-    margin-right: 27px;
+    margin-right: 25px;
 }
 
 .counter
@@ -572,6 +569,8 @@ li .main-navigation-active:active
 
 .counter-btn
 {
+    width: 30px;
+
     border: none;
     outline: none;
     background: #f2f2f2;
@@ -639,7 +638,7 @@ li .main-navigation-active:active
 .filter
 {
     margin: 0 auto;
-    padding: 25px 6% 18px 6%;
+    padding: 25px 6%;
 
     color: #fff;
     background: #40759f url('../img/bg-filter.jpg') no-repeat center;
@@ -649,7 +648,18 @@ li .main-navigation-active:active
 .filter-title
 {
     font-size: 16px;
+    line-height: 21px;
+
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
 }
+
+.filter-columns .filter-title
+{
+    margin-bottom: 20px;
+}
+
 
 .filter-columns
 {
@@ -659,7 +669,6 @@ li .main-navigation-active:active
 
     width: 24%;
     min-width: 210px;
-    margin-bottom: 15px;
 }
 
 .filter-columns input[type='checkbox']
@@ -674,7 +683,7 @@ li .main-navigation-active:active
     display: inline-block;
 
     margin-right: 75px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 0;
 
     vertical-align: middle;
@@ -692,7 +701,7 @@ li .main-navigation-active:active
     width: 21px;
     height: 25px;
     margin-top: 2px;
-    margin-right: 14px;
+    margin-right: 19px;
     padding: 0;
 
     content: '';
@@ -710,7 +719,7 @@ li .main-navigation-active:active
     width: 21px;
     height: 25px;
     margin-top: 2px;
-    margin-right: 14px;
+    margin-right: 19px;
     padding: 0;
 
     content: '';
@@ -727,7 +736,7 @@ li .main-navigation-active:active
 
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
     padding: 0;
 
     content: '';
@@ -744,7 +753,7 @@ li .main-navigation-active:active
 
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
     padding: 0;
 
     content: '';
@@ -761,16 +770,6 @@ li .main-navigation-active:active
 
     width: 31%;
     min-width: 220px;
-}
-
-.filter-title
-{
-    font-size: 16px;
-    line-height: 21px;
-
-    margin: 0;
-    margin-bottom: 8px;
-    padding: 0;
 }
 
 .price-frame
@@ -804,7 +803,7 @@ li .main-navigation-active:active
     background: #fff;
 }
 
-.price-frame label
+.price-frame div
 {
     font-size: 14px;
     line-height: 34px;
@@ -817,10 +816,11 @@ li .main-navigation-active:active
 
 .price-frame input
 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', 'Arial', sans-serif;
 
     width: 60%;
 
+    color: #fff;
     border: none;
     outline: none;
     background: none;
@@ -905,11 +905,13 @@ li .main-navigation-active:active
 
 .search-navigation
 {
-    font-size: 0;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 14px;
 
     margin: 0;
-    padding: 30px 6%;
+    padding: 0 6%;
+    padding-top: 40px;
+    padding-bottom: 20px;
 
     text-align: left;
 
@@ -921,7 +923,6 @@ li .main-navigation-active:active
 {
     font-size: 21px;
     font-weight: bold;
-    line-height: 26px;
 
     display: inline-block;
 
@@ -939,7 +940,7 @@ li .main-navigation-active:active
     margin: 0;
     padding: 0;
 
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .sorting span
@@ -951,7 +952,7 @@ li .main-navigation-active:active
 
     margin-right: 40px;
 
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .sorting a
@@ -962,7 +963,8 @@ li .main-navigation-active:active
 
     margin-right: 32px;
 
-    vertical-align: bottom;
+    vertical-align: top;
+    text-decoration: none;
     text-decoration: none;
 
     color: #b1b1b1;
@@ -999,6 +1001,7 @@ li .main-navigation-active:active
 .arrow
 {
     width: 10px;
+    margin-right: 10px;
 
     fill: #b1b1b1;
 }
@@ -1119,15 +1122,14 @@ li .main-navigation-active:active
 
 .btn
 {
-    font-family: 'PT Sans' sans-serif;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 14px;
     font-weight: bold;
-    line-height: 24px;
 
     display: block;
 
-    height: 26px;
     margin-top: 18px;
-    padding: 0 17px;
+    padding: 5px 16px;
 
     vertical-align: baseline;
     text-decoration: none;

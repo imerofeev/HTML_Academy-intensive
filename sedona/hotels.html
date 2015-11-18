@@ -5,7 +5,7 @@
   <title>Седона - варианты размещения</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper">
@@ -56,14 +56,14 @@
         <div class="filter-price">
           <h2 class="filter-title">Стоимость в сутки (р):</h2>
           <div class="price-frame">
-            <label class="from" for="from">
+            <div class="from">
               От
-              <input type="text" id="from" placeholder="0">
-            </label>
-            <label class="till" for="till">
+              <input type="text" value="0">
+            </div>
+            <div class="till">
               До
-              <input type="text" id="till" placeholder="3000">
-            </label>
+              <input type="text" value="3000">
+            </div>
           </div>
           <div class="range-controls">
             <div class="scale">
