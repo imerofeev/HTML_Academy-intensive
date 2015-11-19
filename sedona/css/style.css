@@ -477,6 +477,8 @@ li .main-navigation-active:active
     margin-left: 10px;
     padding: 10px;
 
+    text-transform: uppercase;
+
     border: none;
     outline: none;
     background: #f2f2f2;
