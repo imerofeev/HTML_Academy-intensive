@@ -425,7 +425,7 @@ li .main-navigation-active:active
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
 
-    opacity: 0;
+    display: none;
     color: #000;
     background-color: #fff;
     box-shadow: 0 0 15px 7px rgba(0, 1, 1, .15);
@@ -437,7 +437,7 @@ li .main-navigation-active:active
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
 
-    opacity: 1;
+    display: block;
 }
 
 .date,
