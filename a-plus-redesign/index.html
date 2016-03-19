@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>A+ - Редизайн - Итоговое задание</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header-main">
+    <div class="container">
+      <div class="header-top clearfix">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="A+"></a>  
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="#">Программа обучения</a></li>
+            <li><a href="#">Выпускники</a></li>
+            <li><a href="#">Как поступить</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="promo">
+        <div class="promo-title">Учеба еще никогда не была такой интересной!</div>
+        <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.</p>
+        <a href="#" class="btn promo-btn">Подать заявку</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container clearfix">
+      <div class="features-item">
+        <div class="features-icon features-icon-shedule"></div>
+        <h2 class="features-title">Гибкий график обучения</h2>
+        <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
+      </div>
+      <div class="features-item">
+        <div class="features-icon features-icon-practicle"></div>
+        <h2 class="features-title">Практические занятия</h2>
+        <p>На одной теории далеко не уедешь поэтому мы обучаем на практике.</p>
+      </div>
+      <div class="features-item">
+        <div class="features-icon features-icon-work"></div>
+        <h2 class="features-title">Не оставим без работы</h2>
+        <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="education">
+    <div class="container">
+      <h2 class="education-title">Формы обучения</h2>
+      <table>
+        <tr>
+          <td class="title">Название</td>
+          <td class="title">Длительность</td>
+          <td class="title">Описание</td>
+        </tr>
+        <tr>
+          <td><strong>Дневное обучение</strong></td>
+          <td><strong>4 года</strong></td>
+          <td class="type">Наиболее интенсивный вариант обучения, для тех, кто не терпит компромиссов ни в чем.</td>
+        </tr>
+        <tr>
+          <td><strong>Вечернее обучение</strong></td>
+          <td><strong>5 лет</strong></td>
+          <td class="type">Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <h2 class="contacts-title">Обратная связь</h2>
+      <form action="" method="post" class="contacts-form">
+        <table>
+          <tr>
+            <td class="title">
+              <label for="fullname">ФИО:</label>
+            </td>
+            <td class="field" >
+              <input  type="text" id="fullname" name="fullname" placeholder="Представьтесь, пожалуйста">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="title">
+              Пол:
+            </td>
+            <td class="field sex">
+              <label for="man"><input type="radio" name="sex" id="man" value="man"> Мужской</label>
+              <label for="woman"><input type="radio" name="sex" id="woman" value="woman"> Женский</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="title">
+              Доп.текст:
+            </td>
+            <td class="field">
+              <textarea name="message" id="message"  placeholder="Сообщите все, что считаете нужным"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="title"></td>
+            <td class="field">
+              <input type="button" class="btn contacts-btn" value="Отправить">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <div class="contacts-instruction">
+        <h3 class="contacts-instruction-title">Заинтересовались обучением на нашей кафедре?</h3>
+        <p>Заполните короткую форму обратной связи и отправьте нам</p>
+        <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+        <p class="contacts-alerts"><strong>Внимание!</strong> Все поля обезательны для заполнения</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-address">
+          <div class="logo">
+          <img src="img/logo.png" alt="A+">
+          </div>
+          <p>197101, г. Санкт-Петербург,<br>пр. Кронверкский, д. 49</p>
+        </div>
+        <div class="footer-menu">
+          <h3>Обучение</h3>
+          <ul>
+            <li><a href="#">Расписание</a></li>
+            <li><a href="#">Предметы</a></li>
+            <li><a href="#">Практика</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>Выпускники</h3>
+          <ul>
+            <li><a href="#">Достижения</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Найти</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>Как поступить</h3>
+          <ul>
+            <li><a href="#">На коммерцию</a></li>
+            <li><a href="#">Целевой набор</a></li>
+            <li><a href="#">На бюджет</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>Контакты</h3>
+          <ul>
+            <li><a href="#">Обратная связь</a></li>
+            <li><a href="#">Схема проезда</a></li>
+            <li><a href="#">Телефон/факс</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
