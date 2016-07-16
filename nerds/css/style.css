@@ -926,7 +926,7 @@ h3
 {
     position: fixed;
     z-index: 700;
-    top: 50%;
+    top: 80%;
     left: 50%;
 
     width: 490px;
@@ -942,7 +942,7 @@ h3
 
 .popup.opened
 {
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-100%);
 }
 
 .popup-error
@@ -955,7 +955,7 @@ h3
     0%,
     100%
     {
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-100%);
     }
     10%,
     30%,
@@ -963,14 +963,14 @@ h3
     70%,
     90%
     {
-        transform: translate(-53%,-50%);
+        transform: translate(-53%,-100%);
     }
     20%,
     40%,
     60%,
     80%
     {
-        transform: translate(-47%,-50%);
+        transform: translate(-47%,-100%);
     }
 }
 
